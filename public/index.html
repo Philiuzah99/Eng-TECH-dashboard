@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <title>engtech-techies.com</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!--sidebar-->
+        <aside class="sidebar" id="sidebar">
+            <h2><i class="fas fa-tools">Eng-TECH</i></h2>
+            <ul>
+                <li><a href="#" data-target="home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#" data-target="projects"><i class="fas fa-microchip"></i> Projects</a></li>
+                <li><a href="#" data-target="team"><i class="fas fa-users"></i> Team</a></li>
+                <li><a href="#" data-target="analytics"><i class="fas fa-chart-line"></i> Analytics</a></li>
+                <li><a href="#" data-target="settings"><i class="fas fa-cogs"></i> Settings</a></li>
+                <li><a href="#" data-target="services"><i class="fas fa-briefcase"></i>Services</a></li>
+                <li><a href="#" data-target="contact"><i class="fas fa-envelope"></i>Contact Info</a></li>
+            </ul>
+        </aside>
+
+        <!--content-->
+        <main class="content">
+            <nav class="navbar">
+                <button id="toggleBtn"><i class="fas fa-bars"></i></button>
+                <input type="text" id="searchBar" placeholder="Search..." class="search-bar"/>
+                <button id="clearSearchBtn" style="display:none;">Clear Search</button>
+                <div class="logo">Eng-TECH</div>
+            </nav>
+
+            <section class="main-section">
+                <h1>Welcome to Eng-TECH Engineering and Technologies.</h1>
+                <p>Here's where all your tech and engineering desires are achieved.</p>
+            </section>
+
+            <section class="more">
+                <a href="https://philiuzah99.github.io/my_portfolio/" id="portfolio">Our Portfolio</a>
+                <a href="mailto:mangalephilip@gmail.com?subject=Inquiry&body=Hi Eng-TECH team," id="contact">Contact Us</a>
+                 
+            </section>
+
+            <!--Project section-->
+            <h3 id="searchLabel" style="display:none;">Search Results</h3>
+            <section id="projects" class="page" style="display:none";>
+                <h2>Our Projects</h2>
+                <div class="project-list">
+                    <!--projects cards-->
+
+                </div>
+            </section>
+
+            <!--Team section-->
+            <section id="team" class="page" style="display:none";>
+                <h2>Meet The Team</h2>
+                <div class="team-grid">
+                    <!--Profiles-->
+
+                </div>
+            </section>
+
+            <!--Analytics section-->
+            <section id="analytics" class="page" style="display:none";>
+                <h2>Analytics Dashboard</h2>
+                <!--Charts-->
+            </section>
+
+            <section id="settings" class="page" style="display:none";>
+                <h2>Settings</h2>
+                <p>Customize your experience here.</p>
+            </section>
+
+            <section id="services" class="page" style="display: none;">
+                <h2>Our Services</h2>
+                <div class="services-list"></div>
+                <!--Services-->
+            </section>
+
+            <section id="contactInfo" class="page" style="display: none;">
+                <div class="contactsInfo">
+                    <div class="contacts">
+                        <h2>Contact Information</h2>
+                        <p> Email: mangalephilip@gmail.com</p>
+                        <p>Phone: +254793261988</p>
+                        <p>Location: Mombasa, Kenya</p>
+                <!--Contact-->
+                    </div>
+                </div>
+            </section>    
+        </main>
+    </div>
+
+    <footer>
+        <p>Eng-TECH &copy 2025. All rights reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
